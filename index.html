@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой сайт</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+        }
+
+        header {
+            background: #020617;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        nav {
+            background: #020617;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: #020617;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #020617;
+            text-align: center;
+            padding: 15px;
+            color: #94a3b8;
+        }
+
+        button {
+            background: #38bdf8;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #0ea5e9;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Добро пожаловать</h1>
+    <p>Официальный сайт</p>
+</header>
+
+<nav>
+    <a href="#">Главная</a>
+    <a href="#">О нас</a>
+    <a href="#">Проекты</a>
+    <a href="#">Контакты</a>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <h2>О нас</h2>
+        <p>
+            Это пример сайта на чистом HTML и CSS.
+            Здесь можно разместить информацию о вашей команде,
+            Roblox-проекте или компании.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Наши проекты</h2>
+        <ul>
+            <li>🚋 Трамвайный RP</li>
+            <li>🏪 Кассовая система</li>
+            <li>🖥️ GUI и SurfaceGui</li>
+        </ul>
+        <button>Подробнее</button>
+    </div>
+</div>
+
+<footer>
+    © 2025 Все права защищены
+</footer>
+
+</body>
+</html>
